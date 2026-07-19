@@ -1,3 +1,4 @@
+//Variables 
 var name = "Thanura"
 console.log("Name is : ",name);
 
@@ -22,3 +23,5 @@ console.log("New Name is : ",name);
 }
 console.log("Outer age is: ",age)
 console.log("Outer address is: ",address)
+
+
