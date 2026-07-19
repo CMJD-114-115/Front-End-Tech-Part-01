@@ -10,5 +10,15 @@ console.log("Email is: ",email)
 name = "Kamal"
 console.log("New Name is : ",name);
 
-email = "kamal@mail.com"
-console.log("New Email is: ",email)
+// email = "kamal@mail.com"
+// console.log("New Email is: ",email)
+
+{
+    let address = "Galle"
+    console.log("Inner address is: ",address)
+
+    var age = 35
+    console.log("Inner age is: ",age)
+}
+console.log("Outer age is: ",age)
+console.log("Outer address is: ",address)
