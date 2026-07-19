@@ -24,6 +24,7 @@ userForm.addEventListener("submit",(e) =>{
     console.log("Form Dataset: ",collectedFormData)
 
     // To JSON
-        console.log("Form Dataset as JSON: ",JSON.stringify(collectedFormData))
+    console.log("Form Dataset as JSON: ",JSON.stringify(collectedFormData))
+    userForm.reset()
 
 })
